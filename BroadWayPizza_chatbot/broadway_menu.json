@@ -1,0 +1,401 @@
+{
+  "restaurant_info": {
+    "name": "Broadway Pizza Pakistan",
+    "tagline": "The Best Pizza in Town!",
+    "delivery_hours": "10:00 AM - 2:00 AM",
+    "lunch_deal_hours": "10:00 AM - 4:00 PM",
+    "midnight_deal_hours": "12:00 AM - 4:00 AM",
+    "delivery_fee": 150,
+    "minimum_order": 500,
+    "contact": "111-339-339"
+  },
+  "pizzas": {
+    "gourmet_flavors": [
+      {
+        "id": "pizza_001",
+        "name": "Chicago Bold Fold",
+        "description": "Bold flavors with premium toppings, Chicago-style thick crust",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_002",
+        "name": "Dancing Fajita",
+        "description": "Sizzling chicken fajita with bell peppers, onions, and special sauce",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_003",
+        "name": "Tarzan Tikka",
+        "description": "Spicy chicken tikka with onions and green chilies",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_004",
+        "name": "All Cheese",
+        "description": "Four cheese blend - mozzarella, cheddar, parmesan, and feta",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_005",
+        "name": "All Veggie",
+        "description": "Fresh vegetables including mushrooms, olives, tomatoes, bell peppers, and onions",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_006",
+        "name": "MegaBite Surprise",
+        "description": "Loaded with chicken megabites and special Broadway sauce",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_007",
+        "name": "Mughlai Beast",
+        "description": "Rich Mughlai-style chicken with creamy sauce and aromatic spices",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      },
+      {
+        "id": "pizza_008",
+        "name": "Phantom",
+        "description": "Mystery pizza with a unique blend of toppings",
+        "category": "Gourmet",
+        "prices": {
+          "small": 449,
+          "medium": 899,
+          "large": 1299,
+          "xlarge": 1699
+        },
+        "available": true
+      }
+    ]
+  },
+  "deals": {
+    "crazy_value_deals": [
+      {
+        "id": "deal_001",
+        "name": "Crazy Value Deal 1",
+        "description": "Two Small Pizzas (any flavor)",
+        "price": 789,
+        "items": ["2 Small Pizzas"],
+        "available": true
+      },
+      {
+        "id": "deal_002",
+        "name": "Crazy Value Deal 2",
+        "description": "Two Medium Pizzas (any flavor)",
+        "price": 1998,
+        "items": ["2 Medium Pizzas"],
+        "available": true
+      },
+      {
+        "id": "deal_003",
+        "name": "Crazy Value Deal 3",
+        "description": "Two Large Pizzas (any flavor)",
+        "price": 2798,
+        "items": ["2 Large Pizzas"],
+        "available": true
+      }
+    ],
+    "lunch_deals": [
+      {
+        "id": "lunch_001",
+        "name": "Lunch Deal 1",
+        "description": "20-inch Pizza Slice + 345ml Drink",
+        "price": 649,
+        "items": ["1 Pizza Slice (20-inch)", "1 Drink (345ml)"],
+        "available_hours": "10:00 AM - 4:00 PM",
+        "available": true
+      },
+      {
+        "id": "lunch_002",
+        "name": "Lunch Deal 2",
+        "description": "Square Sandwich OR Creamy Pasta OR Calzone + 345ml Drink",
+        "price": 699,
+        "items": ["1 Sandwich/Pasta/Calzone", "1 Drink (345ml)"],
+        "available_hours": "10:00 AM - 4:00 PM",
+        "available": true
+      },
+      {
+        "id": "lunch_003",
+        "name": "Lunch Deal 3",
+        "description": "Two 20-inch XXL Half Pizzas + 2 Dips",
+        "price": 2899,
+        "items": ["2 XXL Half Pizzas (20-inch)", "2 Dips"],
+        "available_hours": "10:00 AM - 4:00 PM",
+        "available": true
+      }
+    ],
+    "kids_meals": [
+      {
+        "id": "kids_001",
+        "name": "Kids Meal Deal 1",
+        "description": "Star-Shape Pizza + Slice Juice + Puzzle",
+        "price": 499,
+        "items": ["1 Star Pizza", "1 Juice", "1 Puzzle"],
+        "available": true
+      },
+      {
+        "id": "kids_002",
+        "name": "Kids Meal Deal 2",
+        "description": "3 Chicken Mega Bites + 100g Chicken Fries + Slice Juice + Puzzle",
+        "price": 499,
+        "items": ["3 Chicken Mega Bites", "100g Chicken Fries", "1 Juice", "1 Puzzle"],
+        "available": true
+      }
+    ],
+    "special_offers": [
+      {
+        "id": "special_001",
+        "name": "Stuffed Calzone & Drink",
+        "description": "Stuffed Calzone + 345ml Drink",
+        "price": 549,
+        "items": ["1 Stuffed Calzone", "1 Drink (345ml)"],
+        "available": true
+      },
+      {
+        "id": "special_002",
+        "name": "Pasta & Drink",
+        "description": "Any Pasta + 345ml Drink",
+        "price": 599,
+        "items": ["1 Pasta", "1 Drink (345ml)"],
+        "available": true
+      },
+      {
+        "id": "special_003",
+        "name": "Sandwich & Drink",
+        "description": "Square Sandwich + 345ml Drink",
+        "price": 649,
+        "items": ["1 Sandwich", "1 Drink (345ml)"],
+        "available": true
+      },
+      {
+        "id": "special_004",
+        "name": "My Box",
+        "description": "Regular Pizza + 100g Crinkle Fries + 3 Garlic Breads + 1 Dip",
+        "price": 699,
+        "items": ["1 Regular Pizza", "100g Fries", "3 Garlic Breads", "1 Dip"],
+        "available": true
+      },
+      {
+        "id": "special_005",
+        "name": "Midnight Madness Deal",
+        "description": "Two Large Pizzas + 1 Side",
+        "price": 1999,
+        "items": ["2 Large Pizzas", "1 Side"],
+        "available_hours": "12:00 AM - 4:00 AM",
+        "available": true
+      }
+    ]
+  },
+  "appetizers": [
+    {
+      "id": "app_001",
+      "name": "Chicken Mega Bites",
+      "description": "Crispy chicken bites (6 pieces)",
+      "price": 599,
+      "quantity": "6 pieces",
+      "available": true
+    },
+    {
+      "id": "app_002",
+      "name": "Oven Baked Potato Wedges",
+      "description": "Crispy potato wedges",
+      "price": 499,
+      "quantity": "200g",
+      "available": true
+    },
+    {
+      "id": "app_003",
+      "name": "Garlic Bread",
+      "description": "Freshly baked garlic bread",
+      "price": 399,
+      "quantity": "6 pieces",
+      "available": true
+    },
+    {
+      "id": "app_004",
+      "name": "Mozzarella Breads",
+      "description": "Cheesy mozzarella bread sticks",
+      "price": 499,
+      "quantity": "6 pieces",
+      "available": true
+    },
+    {
+      "id": "app_005",
+      "name": "Pizza Roll (Chicken Mughlai)",
+      "description": "Rolled pizza with Mughlai chicken filling",
+      "price": 399,
+      "quantity": "1 roll",
+      "available": true
+    },
+    {
+      "id": "app_006",
+      "name": "Starter Box",
+      "description": "3 Chicken Megabites + 100g Crinkle Fries + 3 Wings + 3 Garlic Breads",
+      "price": 799,
+      "quantity": "1 box",
+      "available": true
+    },
+    {
+      "id": "app_007",
+      "name": "Value Pasta",
+      "description": "Simple pasta with sauce",
+      "price": 399,
+      "quantity": "1 serving",
+      "available": true
+    }
+  ],
+  "pastas": [
+    {
+      "id": "pasta_001",
+      "name": "BBQ Ranch Pasta",
+      "description": "Creamy pasta with BBQ ranch sauce",
+      "price": 599,
+      "available": true
+    },
+    {
+      "id": "pasta_002",
+      "name": "Spicy Garlic Ranch Pasta",
+      "description": "Spicy pasta with garlic ranch sauce",
+      "price": 599,
+      "available": true
+    },
+    {
+      "id": "pasta_003",
+      "name": "Smokey Joe's Pasta",
+      "description": "Smoky flavored pasta with special sauce",
+      "price": 599,
+      "available": true
+    }
+  ],
+  "desserts": [
+    {
+      "id": "dessert_001",
+      "name": "Chocolate Bread",
+      "description": "Sweet chocolate-filled bread",
+      "price": 399,
+      "quantity": "6 pieces",
+      "available": true
+    },
+    {
+      "id": "dessert_002",
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with molten center",
+      "price": 399,
+      "quantity": "1 piece",
+      "available": true
+    }
+  ],
+  "drinks": [
+    {
+      "id": "drink_001",
+      "name": "Soft Drink",
+      "sizes": {
+        "345ml": 80,
+        "500ml": 120,
+        "1.5L": 200
+      },
+      "available": true
+    },
+    {
+      "id": "drink_002",
+      "name": "Mineral Water",
+      "sizes": {
+        "500ml": 80,
+        "1.5L": 150
+      },
+      "available": true
+    }
+  ],
+  "dips": [
+    {
+      "id": "dip_001",
+      "name": "Garlic Mayo",
+      "price": 50,
+      "available": true
+    },
+    {
+      "id": "dip_002",
+      "name": "BBQ Sauce",
+      "price": 50,
+      "available": true
+    },
+    {
+      "id": "dip_003",
+      "name": "Ranch Sauce",
+      "price": 50,
+      "available": true
+    },
+    {
+      "id": "dip_004",
+      "name": "Thousand Island",
+      "price": 50,
+      "available": true
+    }
+  ],
+  "crust_options": [
+    {
+      "name": "Regular Crust",
+      "price": 0,
+      "description": "Classic hand-tossed crust"
+    },
+    {
+      "name": "Thin Crust",
+      "price": 0,
+      "description": "Crispy thin crust"
+    },
+    {
+      "name": "Stuffed Crust",
+      "price": 200,
+      "description": "Cheese-stuffed crust (additional Rs. 200)"
+    }
+  ]
+}

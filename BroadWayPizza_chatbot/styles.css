@@ -1,0 +1,370 @@
+/* ============================================
+   Broadway Pizza Chatbot - Premium UI v3
+   Purpose: Modern, Clean, No Overlaps
+   ============================================ */
+
+/* Import High-Grade Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;700&display=swap');
+
+:root {
+    /* --- Color Palette --- */
+    /* Neutral / Backgrounds */
+    --bg-app: #0f1115;
+    /* Very dark blue-grey, softer than pure black */
+    --bg-sidebar: #161b22;
+    /* Github-dim style sidebar */
+    --bg-card: #1c2128;
+    /* Card background */
+    --bg-input: #21262d;
+    /* Input background */
+
+    /* Brand Colors */
+    --color-brand: #E31837;
+    /* Broadway Red */
+    --color-accent: #FDB913;
+    /* Broadway Yellow */
+
+    /* Text Colors */
+    --text-primary: #F0F6FC;
+    /* High readability white */
+    --text-secondary: #8B949E;
+    /* Subdued text */
+    --text-link: #58A6FF;
+
+    /* Chat Bubbles */
+    --chat-bg-assistant: #161b22;
+    --chat-bg-user: #1F6FEB;
+    /* Modern blue for user, distinct from brand red */
+
+    /* Metrics */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+}
+
+/* ============================================
+   Global Resets & Typography
+   ============================================ */
+.stApp {
+    background-color: var(--bg-app);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-primary) !important;
+    margin-bottom: var(--spacing-md) !important;
+}
+
+/* Custom Headers from app.py */
+.chat-header {
+    background: transparent;
+    padding: var(--spacing-sm) 0;
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid #30363d;
+}
+
+.menu-grid-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin: var(--spacing-xl) 0 var(--spacing-md) 0;
+    padding-left: var(--spacing-xs);
+    border-left: 4px solid var(--color-brand);
+    padding-left: 12px;
+}
+
+p,
+span,
+div,
+li {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hide Streamlit Chrome - BUT keep header for sidebar toggle */
+#MainMenu,
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: visible !important;
+    /* Ensure sidebar toggle is visible */
+    background: transparent !important;
+}
+
+/* ============================================
+   Layout & Container Fixes
+   ============================================ */
+
+/* Main Content Padding - CRITICAL for preventing visual overlap with fixed chat input */
+.main .block-container {
+    padding-top: 3rem !important;
+    padding-bottom: 160px !important;
+    /* Huge padding to clear chat input */
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid #30363d;
+}
+
+[data-testid="stSidebar"] img {
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-sm);
+}
+
+/* ============================================
+   Chat Interface Styling
+   ============================================ */
+
+/* Chat Messages Container */
+[data-testid="stChatMessagesContainer"] {
+    padding-bottom: 20px !important;
+}
+
+/* Chat Message Bubbles */
+[data-testid="stChatMessage"] {
+    background-color: transparent !important;
+    border: none !important;
+    padding: var(--spacing-sm) 0 !important;
+}
+
+/* User Message */
+[data-testid="stChatMessage"][data-testid="user-message"] {
+    /* No specifically targeted style needed for container, targeting structure via internal classes if possible, 
+       but Streamlit structures are rigid. We Style the background of the content container usually. */
+}
+
+/* Message Avatar */
+[data-testid="chatAvatarIcon-assistant"] {
+    background-color: var(--color-brand) !important;
+}
+
+[data-testid="chatAvatarIcon-user"] {
+    background-color: #30363d !important;
+}
+
+/* Message Content Styling */
+[data-testid="stChatMessageContent"] {
+    border-radius: var(--radius-md) !important;
+    padding: var(--spacing-md) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    background-color: var(--bg-card) !important;
+    /* Ensure background is dark */
+    color: var(--text-primary) !important;
+    /* Ensure text is light */
+}
+
+/* Targeting specific backgrounds based on role is tricky in pure CSS without :has, 
+   but Streamlit puts classes on the parent div. */
+div[data-testid="stChatMessage"]:nth-child(even) [data-testid="stChatMessageContent"] {
+    /* Assuming user/assistant alternate, but this is flaky. 
+       Better to stick to a neutral consistent premium look or use the variables if streamlits generated html allows.
+       Actually, Streamlit's latest version supports `avatar` arg but styling the bubble specific color via CSS is hard.
+       We will make ALL bubbles look sleek and use the avatar to differentiate.
+    */
+    background-color: var(--bg-card);
+}
+
+div[data-testid="stChatMessage"]:nth-child(odd) [data-testid="stChatMessageContent"] {
+    background-color: var(--bg-card);
+}
+
+/* ============================================
+   Fixed Chat Input Area
+   ============================================ */
+.stChatInput {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 21rem !important;
+    /* Matches default sidebar width */
+    width: calc(100% - 21rem) !important;
+    background: rgba(15, 17, 21, 0.9) !important;
+    /* Semi-transparent app background */
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid #30363d !important;
+    padding: 20px 4% !important;
+    z-index: 999 !important;
+    transition: left 0.3s ease, width 0.3s ease;
+}
+
+/* When Sidebar is Collapsed */
+.stApp:has([data-testid="stSidebar"][aria-expanded="false"]) .stChatInput {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+/* Input Box Styling */
+.stChatInput textarea {
+    background-color: var(--bg-input) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid #30363d !important;
+    border-radius: var(--radius-lg) !important;
+    padding: 12px 16px !important;
+}
+
+.stChatInput textarea:focus {
+    border-color: var(--color-brand) !important;
+    box-shadow: 0 0 0 2px rgba(227, 24, 55, 0.2) !important;
+}
+
+/* Placeholder */
+.stChatInput ::placeholder {
+    color: var(--text-secondary) !important;
+    opacity: 0.7 !important;
+}
+
+/* Send Button */
+[data-testid="stChatInputSubmitButton"] {
+    color: var(--text-secondary) !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+[data-testid="stChatInputSubmitButton"]:hover {
+    color: var(--color-brand) !important;
+}
+
+/* ============================================
+   Component: Menu Card
+   ============================================ */
+.menu-card {
+    background-color: var(--bg-card);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid #30363d;
+    transition: all 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-brand);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.menu-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 1px solid #30363d;
+}
+
+.menu-content {
+    padding: var(--spacing-md);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.menu-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+    flex-grow: 1;
+}
+
+.menu-price {
+    font-weight: 700;
+    color: var(--color-accent);
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+/* ============================================
+   Sidebar Nav Buttons
+   ============================================ */
+.stButton button {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid #30363d !important;
+    border-radius: var(--radius-sm) !important;
+    font-weight: 500 !important;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.stButton button:hover {
+    background-color: var(--color-brand) !important;
+    border-color: var(--color-brand) !important;
+    color: white !important;
+}
+
+/* ============================================
+   Utilities & Helpers
+   ============================================ */
+.cart-panel {
+    background: var(--bg-card);
+    border-left: 4px solid var(--color-brand);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-sm);
+    margin-top: 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-app);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #505862;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .stChatInput {
+        left: 0 !important;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    .menu-img {
+        height: 120px;
+    }
+}

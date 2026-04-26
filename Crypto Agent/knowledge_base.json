@@ -1,0 +1,104 @@
+{
+  "coins": {
+    "bitcoin": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "launch_year": 2009,
+      "consensus_mechanism": "Proof of Work",
+      "chain_type": "Blockchain",
+      "price": 45000.00,
+      "market_cap": 850000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "launch_year": 2015,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 3000.00,
+      "market_cap": 350000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "solana": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "launch_year": 2020,
+      "consensus_mechanism": "Proof of History",
+      "chain_type": "Blockchain",
+      "price": 100.00,
+      "market_cap": 40000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "binancecoin": {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "launch_year": 2017,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 320.00,
+      "market_cap": 48000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "ripple": {
+      "name": "XRP",
+      "symbol": "XRP",
+      "launch_year": 2012,
+      "consensus_mechanism": "Federated Consensus",
+      "chain_type": "Blockchain",
+      "price": 0.62,
+      "market_cap": 33000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "cardano": {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "launch_year": 2017,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 0.58,
+      "market_cap": 20000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "dogecoin": {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "launch_year": 2013,
+      "consensus_mechanism": "Proof of Work",
+      "chain_type": "Blockchain",
+      "price": 0.085,
+      "market_cap": 12000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "polygon": {
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "launch_year": 2017,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 0.92,
+      "market_cap": 8500000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "polkadot": {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "launch_year": 2020,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 7.20,
+      "market_cap": 9000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    },
+    "avalanche": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "launch_year": 2020,
+      "consensus_mechanism": "Proof of Stake",
+      "chain_type": "Blockchain",
+      "price": 38.50,
+      "market_cap": 14000000000,
+      "last_updated": "2024-01-01T12:00:00"
+    }
+  }
+}
