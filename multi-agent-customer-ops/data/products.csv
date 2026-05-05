@@ -1,0 +1,501 @@
+product_id,name,brand,category,price,stock,rating
+1,J. Trouser,J.,Trouser,6617,73,4.2
+2,Levis T-Shirt,Levis,T-Shirt,5632,43,4.9
+3,Gul Ahmed Jeans,Gul Ahmed,Jeans,7411,51,4.6
+4,Levis Shirt,Levis,Shirt,7072,140,4.8
+5,Levis Jacket,Levis,Jacket,7099,137,3.7
+6,Bonanza Trouser,Bonanza,Trouser,4800,73,4.4
+7,Bonanza Hoodie,Bonanza,Hoodie,8029,98,3.7
+8,Outfitters Jeans,Outfitters,Jeans,6382,71,4.2
+9,J. Hoodie,J.,Hoodie,5158,131,3.8
+10,Ideas Kurta,Ideas,Kurta,6070,49,3.7
+11,Levis Kurta,Levis,Kurta,6606,42,5.0
+12,Ideas Hoodie,Ideas,Hoodie,5656,132,4.8
+13,Khaadi Shirt,Khaadi,Shirt,7578,58,4.4
+14,Bonanza Shirt,Bonanza,Shirt,4924,55,3.8
+15,Ideas Jeans,Ideas,Jeans,6174,37,3.9
+16,J. Hoodie,J.,Hoodie,7804,64,4.7
+17,J. T-Shirt,J.,T-Shirt,1851,29,4.4
+18,Breakout Jacket,Breakout,Jacket,6149,51,3.9
+19,Bonanza Jeans,Bonanza,Jeans,1870,130,4.5
+20,Bonanza T-Shirt,Bonanza,T-Shirt,4293,108,3.7
+21,Bonanza Kurta,Bonanza,Kurta,8125,137,4.0
+22,J. Trouser,J.,Trouser,6519,148,4.7
+23,Gul Ahmed Jacket,Gul Ahmed,Jacket,3331,45,4.5
+24,Outfitters Jeans,Outfitters,Jeans,8409,65,4.7
+25,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,5087,49,4.3
+26,Outfitters Hoodie,Outfitters,Hoodie,2442,52,5.0
+27,Ideas Shirt,Ideas,Shirt,1899,7,3.5
+28,Levis T-Shirt,Levis,T-Shirt,3122,117,4.2
+29,Levis Trouser,Levis,Trouser,8330,176,3.8
+30,Khaadi Shirt,Khaadi,Shirt,2119,184,4.0
+31,Khaadi Jeans,Khaadi,Jeans,2729,131,4.1
+32,Gul Ahmed Trouser,Gul Ahmed,Trouser,2137,72,3.6
+33,Bonanza Hoodie,Bonanza,Hoodie,4885,37,4.8
+34,Bonanza Jacket,Bonanza,Jacket,3241,24,3.9
+35,Ideas Hoodie,Ideas,Hoodie,8131,130,4.8
+36,Ideas Kurta,Ideas,Kurta,1985,197,4.5
+37,Outfitters Jacket,Outfitters,Jacket,4774,116,4.6
+38,J. Jacket,J.,Jacket,6559,177,3.8
+39,Khaadi Hoodie,Khaadi,Hoodie,3054,98,4.5
+40,Outfitters Trouser,Outfitters,Trouser,6453,121,4.7
+41,Khaadi Trouser,Khaadi,Trouser,4394,170,3.9
+42,Ideas Jacket,Ideas,Jacket,3552,19,5.0
+43,Bonanza Jacket,Bonanza,Jacket,6106,198,3.5
+44,J. Shirt,J.,Shirt,8378,101,4.2
+45,Ideas Shirt,Ideas,Shirt,3696,68,4.7
+46,Outfitters Kurta,Outfitters,Kurta,8341,37,4.1
+47,Khaadi Hoodie,Khaadi,Hoodie,1949,10,3.9
+48,Gul Ahmed Jacket,Gul Ahmed,Jacket,6177,154,4.0
+49,Bonanza Trouser,Bonanza,Trouser,7593,150,3.5
+50,Levis Jeans,Levis,Jeans,2094,84,3.9
+51,Breakout Jeans,Breakout,Jeans,7359,81,3.7
+52,Outfitters Hoodie,Outfitters,Hoodie,3439,52,4.3
+53,Bonanza Jacket,Bonanza,Jacket,7474,82,4.3
+54,Breakout Shirt,Breakout,Shirt,3810,108,4.6
+55,Gul Ahmed Jeans,Gul Ahmed,Jeans,6935,167,4.7
+56,Ideas Trouser,Ideas,Trouser,5266,26,4.6
+57,J. Kurta,J.,Kurta,3262,31,3.8
+58,J. Jacket,J.,Jacket,6830,119,3.6
+59,Gul Ahmed Shirt,Gul Ahmed,Shirt,5285,81,4.5
+60,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,1985,122,4.9
+61,Levis Jeans,Levis,Jeans,6980,120,4.6
+62,Ideas T-Shirt,Ideas,T-Shirt,2719,194,4.1
+63,Breakout Shirt,Breakout,Shirt,4917,156,4.0
+64,Levis Jacket,Levis,Jacket,8445,102,4.1
+65,Gul Ahmed Jeans,Gul Ahmed,Jeans,2887,97,4.4
+66,Bonanza Hoodie,Bonanza,Hoodie,4056,40,4.8
+67,Ideas Shirt,Ideas,Shirt,1735,61,4.1
+68,Ideas Jacket,Ideas,Jacket,8242,90,4.7
+69,Levis T-Shirt,Levis,T-Shirt,1821,192,3.9
+70,Levis Jeans,Levis,Jeans,4219,182,4.6
+71,J. Shirt,J.,Shirt,2034,5,3.7
+72,Breakout Hoodie,Breakout,Hoodie,5201,115,4.6
+73,Breakout Kurta,Breakout,Kurta,2034,70,4.3
+74,Breakout Hoodie,Breakout,Hoodie,5346,141,4.3
+75,Breakout Trouser,Breakout,Trouser,2441,14,4.4
+76,J. Jeans,J.,Jeans,2188,21,3.5
+77,Ideas T-Shirt,Ideas,T-Shirt,2197,153,4.4
+78,Ideas Jeans,Ideas,Jeans,1666,181,4.6
+79,Bonanza Jacket,Bonanza,Jacket,6240,180,4.3
+80,Ideas T-Shirt,Ideas,T-Shirt,2600,173,3.6
+81,Breakout Shirt,Breakout,Shirt,5947,168,3.7
+82,Levis Jacket,Levis,Jacket,7407,178,3.9
+83,Outfitters Hoodie,Outfitters,Hoodie,3280,163,4.7
+84,Levis Hoodie,Levis,Hoodie,5259,81,4.4
+85,Levis Jeans,Levis,Jeans,2792,11,4.5
+86,Outfitters Shirt,Outfitters,Shirt,8052,171,3.9
+87,Breakout Hoodie,Breakout,Hoodie,4773,18,3.8
+88,Bonanza Hoodie,Bonanza,Hoodie,1716,122,4.6
+89,Bonanza Hoodie,Bonanza,Hoodie,3416,40,3.7
+90,Outfitters Jeans,Outfitters,Jeans,3720,192,3.9
+91,Bonanza Trouser,Bonanza,Trouser,3452,46,4.4
+92,Gul Ahmed Jeans,Gul Ahmed,Jeans,6884,64,3.9
+93,Breakout Shirt,Breakout,Shirt,4795,8,3.7
+94,Gul Ahmed Jeans,Gul Ahmed,Jeans,4796,62,4.7
+95,J. Shirt,J.,Shirt,2135,10,4.3
+96,Ideas Jacket,Ideas,Jacket,7167,91,4.2
+97,Khaadi Hoodie,Khaadi,Hoodie,5700,24,3.6
+98,Outfitters Trouser,Outfitters,Trouser,5722,88,3.9
+99,J. T-Shirt,J.,T-Shirt,4199,96,4.6
+100,Khaadi Shirt,Khaadi,Shirt,3161,76,3.7
+101,Breakout Jacket,Breakout,Jacket,1903,69,4.8
+102,Ideas Hoodie,Ideas,Hoodie,1923,70,3.9
+103,Gul Ahmed Kurta,Gul Ahmed,Kurta,8431,166,4.2
+104,Bonanza Jeans,Bonanza,Jeans,6868,162,4.8
+105,Levis Jeans,Levis,Jeans,2770,200,4.8
+106,Outfitters Shirt,Outfitters,Shirt,2586,73,4.9
+107,Bonanza T-Shirt,Bonanza,T-Shirt,5908,113,3.7
+108,Ideas Trouser,Ideas,Trouser,4303,151,4.2
+109,Khaadi Shirt,Khaadi,Shirt,4335,130,3.7
+110,J. Kurta,J.,Kurta,3810,117,3.6
+111,Breakout Kurta,Breakout,Kurta,6806,63,4.5
+112,Khaadi Kurta,Khaadi,Kurta,2449,156,4.1
+113,Khaadi Kurta,Khaadi,Kurta,3342,74,5.0
+114,Khaadi T-Shirt,Khaadi,T-Shirt,7891,136,4.7
+115,Breakout Kurta,Breakout,Kurta,4257,136,4.7
+116,Bonanza Jacket,Bonanza,Jacket,1907,15,4.7
+117,Breakout Trouser,Breakout,Trouser,2320,109,4.6
+118,Levis T-Shirt,Levis,T-Shirt,5111,48,3.8
+119,Khaadi Trouser,Khaadi,Trouser,5751,121,4.3
+120,Levis Shirt,Levis,Shirt,1559,86,3.5
+121,Khaadi T-Shirt,Khaadi,T-Shirt,7147,93,3.9
+122,Ideas Jeans,Ideas,Jeans,3578,174,4.2
+123,J. Kurta,J.,Kurta,8101,115,4.0
+124,Bonanza T-Shirt,Bonanza,T-Shirt,4604,21,3.5
+125,Bonanza Shirt,Bonanza,Shirt,7816,48,4.6
+126,J. Trouser,J.,Trouser,7981,22,3.9
+127,Gul Ahmed Hoodie,Gul Ahmed,Hoodie,8372,124,3.9
+128,J. T-Shirt,J.,T-Shirt,8417,56,4.1
+129,Levis Shirt,Levis,Shirt,6988,69,4.8
+130,Gul Ahmed Shirt,Gul Ahmed,Shirt,4432,159,5.0
+131,Gul Ahmed Shirt,Gul Ahmed,Shirt,6020,154,4.9
+132,Levis Shirt,Levis,Shirt,2058,119,4.8
+133,Ideas Jeans,Ideas,Jeans,3902,84,4.6
+134,Breakout Trouser,Breakout,Trouser,4165,51,3.6
+135,J. Jeans,J.,Jeans,7807,25,4.9
+136,Breakout Kurta,Breakout,Kurta,6043,43,4.4
+137,Gul Ahmed Jeans,Gul Ahmed,Jeans,2978,81,4.3
+138,Bonanza Jacket,Bonanza,Jacket,5854,173,4.2
+139,Outfitters Shirt,Outfitters,Shirt,6339,38,3.6
+140,Gul Ahmed Hoodie,Gul Ahmed,Hoodie,1568,56,4.9
+141,Khaadi Shirt,Khaadi,Shirt,4753,13,4.7
+142,Breakout Hoodie,Breakout,Hoodie,5738,5,4.7
+143,Gul Ahmed Hoodie,Gul Ahmed,Hoodie,2436,44,3.7
+144,Breakout T-Shirt,Breakout,T-Shirt,7972,54,4.8
+145,Breakout Kurta,Breakout,Kurta,7506,54,4.4
+146,Outfitters Shirt,Outfitters,Shirt,6571,173,4.7
+147,Khaadi Hoodie,Khaadi,Hoodie,5790,11,4.7
+148,Outfitters Hoodie,Outfitters,Hoodie,1980,149,3.6
+149,Breakout Kurta,Breakout,Kurta,5575,162,3.6
+150,Gul Ahmed Jacket,Gul Ahmed,Jacket,2855,23,4.1
+151,J. Jacket,J.,Jacket,3983,64,3.8
+152,Khaadi Jeans,Khaadi,Jeans,3175,176,4.8
+153,J. Hoodie,J.,Hoodie,7965,186,4.6
+154,Khaadi Jeans,Khaadi,Jeans,3409,5,4.4
+155,J. Trouser,J.,Trouser,5411,110,4.2
+156,J. Kurta,J.,Kurta,3923,138,4.2
+157,Breakout Jacket,Breakout,Jacket,5546,116,4.2
+158,Gul Ahmed Trouser,Gul Ahmed,Trouser,7570,50,3.9
+159,Outfitters Hoodie,Outfitters,Hoodie,5742,123,4.8
+160,Outfitters Kurta,Outfitters,Kurta,7029,5,4.5
+161,Khaadi Kurta,Khaadi,Kurta,4326,76,4.7
+162,Bonanza Kurta,Bonanza,Kurta,5205,149,4.2
+163,Ideas Hoodie,Ideas,Hoodie,2224,155,3.7
+164,Khaadi Jeans,Khaadi,Jeans,4739,169,3.6
+165,Outfitters Jacket,Outfitters,Jacket,8086,174,5.0
+166,Levis Jeans,Levis,Jeans,6520,155,4.3
+167,Gul Ahmed Jacket,Gul Ahmed,Jacket,7617,133,4.5
+168,Gul Ahmed Kurta,Gul Ahmed,Kurta,3730,38,4.1
+169,Ideas Jeans,Ideas,Jeans,8296,68,3.9
+170,Levis Hoodie,Levis,Hoodie,6340,162,4.6
+171,Bonanza T-Shirt,Bonanza,T-Shirt,3313,105,4.8
+172,Breakout Kurta,Breakout,Kurta,2095,189,4.3
+173,Outfitters Trouser,Outfitters,Trouser,6876,13,3.9
+174,Khaadi Hoodie,Khaadi,Hoodie,3768,88,4.7
+175,Khaadi Kurta,Khaadi,Kurta,5592,76,3.8
+176,Bonanza Hoodie,Bonanza,Hoodie,7197,44,3.6
+177,Gul Ahmed Shirt,Gul Ahmed,Shirt,8066,30,3.9
+178,Bonanza Jacket,Bonanza,Jacket,2119,111,3.6
+179,J. Jacket,J.,Jacket,1922,162,3.8
+180,Gul Ahmed Jacket,Gul Ahmed,Jacket,6036,106,4.1
+181,J. Jacket,J.,Jacket,6947,64,3.7
+182,Ideas Jacket,Ideas,Jacket,5674,174,4.0
+183,J. Trouser,J.,Trouser,6464,191,4.3
+184,Levis Trouser,Levis,Trouser,7461,98,4.9
+185,Outfitters Hoodie,Outfitters,Hoodie,2588,64,3.7
+186,Khaadi Hoodie,Khaadi,Hoodie,7617,196,4.9
+187,Khaadi Hoodie,Khaadi,Hoodie,3780,164,3.7
+188,Outfitters Hoodie,Outfitters,Hoodie,4407,63,4.7
+189,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,6636,194,3.9
+190,J. Trouser,J.,Trouser,7453,53,4.1
+191,Gul Ahmed Kurta,Gul Ahmed,Kurta,2675,176,3.8
+192,Levis Jeans,Levis,Jeans,2229,40,4.9
+193,Outfitters Hoodie,Outfitters,Hoodie,5685,114,4.1
+194,J. Trouser,J.,Trouser,3578,85,3.7
+195,Breakout Jeans,Breakout,Jeans,7431,36,4.1
+196,Ideas Jeans,Ideas,Jeans,6050,143,4.6
+197,Bonanza Hoodie,Bonanza,Hoodie,3587,165,3.9
+198,Gul Ahmed Shirt,Gul Ahmed,Shirt,5990,22,3.6
+199,Gul Ahmed Jeans,Gul Ahmed,Jeans,6314,173,3.9
+200,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,2440,92,4.2
+201,Bonanza Jeans,Bonanza,Jeans,2352,126,4.6
+202,Bonanza Jacket,Bonanza,Jacket,4435,195,4.5
+203,Khaadi Jeans,Khaadi,Jeans,4749,105,4.2
+204,J. Jacket,J.,Jacket,1527,167,4.5
+205,Gul Ahmed Shirt,Gul Ahmed,Shirt,5270,15,4.5
+206,Breakout Hoodie,Breakout,Hoodie,6061,34,4.7
+207,Bonanza Jeans,Bonanza,Jeans,2080,19,4.1
+208,Gul Ahmed Jacket,Gul Ahmed,Jacket,5836,108,4.9
+209,Outfitters Jeans,Outfitters,Jeans,4975,125,3.7
+210,J. Trouser,J.,Trouser,4554,171,3.9
+211,Bonanza Trouser,Bonanza,Trouser,5541,191,4.4
+212,Outfitters Hoodie,Outfitters,Hoodie,7646,68,4.0
+213,Breakout Jeans,Breakout,Jeans,3328,12,4.1
+214,Breakout Kurta,Breakout,Kurta,2020,54,3.7
+215,Levis Jacket,Levis,Jacket,1653,79,3.9
+216,Levis T-Shirt,Levis,T-Shirt,2109,138,5.0
+217,Ideas Shirt,Ideas,Shirt,5979,163,3.8
+218,Levis Jacket,Levis,Jacket,3601,67,4.4
+219,Ideas Jacket,Ideas,Jacket,6253,103,4.2
+220,Levis Jeans,Levis,Jeans,8362,38,4.0
+221,J. Jeans,J.,Jeans,4195,105,4.1
+222,J. Jeans,J.,Jeans,6081,110,4.3
+223,Breakout Kurta,Breakout,Kurta,2043,199,3.5
+224,Khaadi Shirt,Khaadi,Shirt,8022,52,3.8
+225,Levis T-Shirt,Levis,T-Shirt,3002,113,4.9
+226,Levis Hoodie,Levis,Hoodie,7191,139,4.6
+227,Khaadi Kurta,Khaadi,Kurta,1870,189,4.0
+228,Breakout T-Shirt,Breakout,T-Shirt,4815,53,4.9
+229,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,4002,32,4.6
+230,Khaadi Shirt,Khaadi,Shirt,5807,21,4.6
+231,Khaadi Jeans,Khaadi,Jeans,2656,117,3.5
+232,J. Hoodie,J.,Hoodie,3201,29,4.8
+233,Gul Ahmed Jacket,Gul Ahmed,Jacket,2115,183,4.7
+234,Khaadi Hoodie,Khaadi,Hoodie,5283,184,3.5
+235,Bonanza Shirt,Bonanza,Shirt,6811,92,3.7
+236,Khaadi Shirt,Khaadi,Shirt,5734,67,3.9
+237,Khaadi Jeans,Khaadi,Jeans,6033,93,3.6
+238,Levis Trouser,Levis,Trouser,2204,169,4.5
+239,Khaadi Hoodie,Khaadi,Hoodie,7902,196,4.9
+240,Khaadi Kurta,Khaadi,Kurta,3341,78,4.5
+241,Levis Hoodie,Levis,Hoodie,2120,97,4.0
+242,Breakout Jeans,Breakout,Jeans,5014,167,3.9
+243,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,3473,138,4.1
+244,Outfitters Hoodie,Outfitters,Hoodie,5898,132,3.5
+245,Levis Shirt,Levis,Shirt,2740,20,3.6
+246,J. Shirt,J.,Shirt,6335,7,4.4
+247,Outfitters Shirt,Outfitters,Shirt,8481,42,4.7
+248,Outfitters Trouser,Outfitters,Trouser,5052,81,3.6
+249,Gul Ahmed Trouser,Gul Ahmed,Trouser,8279,132,4.5
+250,Khaadi Jeans,Khaadi,Jeans,7274,26,3.7
+251,Outfitters Shirt,Outfitters,Shirt,4050,147,4.2
+252,Breakout Trouser,Breakout,Trouser,7274,176,3.6
+253,Ideas Trouser,Ideas,Trouser,5066,77,4.8
+254,Breakout Jeans,Breakout,Jeans,5630,199,4.7
+255,Outfitters T-Shirt,Outfitters,T-Shirt,7246,84,3.6
+256,Ideas Kurta,Ideas,Kurta,1971,87,4.0
+257,Khaadi T-Shirt,Khaadi,T-Shirt,7558,161,3.8
+258,Outfitters Jeans,Outfitters,Jeans,1951,45,4.7
+259,Outfitters Trouser,Outfitters,Trouser,7894,149,3.9
+260,Outfitters T-Shirt,Outfitters,T-Shirt,8271,155,4.9
+261,J. Shirt,J.,Shirt,3450,60,4.9
+262,Breakout Hoodie,Breakout,Hoodie,4427,55,3.9
+263,Breakout Kurta,Breakout,Kurta,3176,56,4.0
+264,J. T-Shirt,J.,T-Shirt,2072,163,4.6
+265,Levis Jacket,Levis,Jacket,4406,87,3.7
+266,Levis Trouser,Levis,Trouser,3048,64,3.9
+267,Levis Shirt,Levis,Shirt,7583,74,4.4
+268,J. Jacket,J.,Jacket,2040,171,4.0
+269,Levis Jeans,Levis,Jeans,6812,89,3.8
+270,Bonanza Kurta,Bonanza,Kurta,7468,117,3.7
+271,Outfitters Trouser,Outfitters,Trouser,4017,101,3.8
+272,Gul Ahmed Jeans,Gul Ahmed,Jeans,8001,82,4.0
+273,Gul Ahmed Kurta,Gul Ahmed,Kurta,8210,66,3.6
+274,Levis Trouser,Levis,Trouser,3755,100,4.1
+275,Ideas Kurta,Ideas,Kurta,4898,183,4.2
+276,J. T-Shirt,J.,T-Shirt,7303,33,3.8
+277,Outfitters Trouser,Outfitters,Trouser,6767,31,4.7
+278,Outfitters Jeans,Outfitters,Jeans,7405,73,3.9
+279,Ideas Shirt,Ideas,Shirt,6328,195,4.1
+280,J. Jeans,J.,Jeans,5552,200,3.9
+281,J. Shirt,J.,Shirt,3646,122,3.8
+282,Outfitters Trouser,Outfitters,Trouser,4169,54,4.1
+283,Bonanza Shirt,Bonanza,Shirt,4515,24,4.3
+284,Khaadi Hoodie,Khaadi,Hoodie,2738,106,4.7
+285,Outfitters Jeans,Outfitters,Jeans,2905,128,4.8
+286,Levis Trouser,Levis,Trouser,8412,182,4.4
+287,Gul Ahmed Jacket,Gul Ahmed,Jacket,6580,168,3.7
+288,Outfitters Kurta,Outfitters,Kurta,4118,116,3.5
+289,J. T-Shirt,J.,T-Shirt,6462,15,3.8
+290,Bonanza Trouser,Bonanza,Trouser,2143,5,4.9
+291,Ideas Jeans,Ideas,Jeans,3076,115,3.7
+292,Bonanza Kurta,Bonanza,Kurta,5778,69,4.1
+293,Breakout Shirt,Breakout,Shirt,2871,182,4.5
+294,Outfitters Kurta,Outfitters,Kurta,3642,55,4.4
+295,Outfitters Hoodie,Outfitters,Hoodie,8391,149,4.6
+296,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,8229,45,4.3
+297,Levis Trouser,Levis,Trouser,2563,155,4.6
+298,Ideas Trouser,Ideas,Trouser,4212,92,3.5
+299,J. Trouser,J.,Trouser,5852,78,4.1
+300,Bonanza Jacket,Bonanza,Jacket,7634,78,3.5
+301,J. Shirt,J.,Shirt,2498,105,3.9
+302,Khaadi Hoodie,Khaadi,Hoodie,5251,35,4.1
+303,J. Hoodie,J.,Hoodie,5503,171,3.7
+304,Outfitters T-Shirt,Outfitters,T-Shirt,7912,57,4.4
+305,Khaadi Hoodie,Khaadi,Hoodie,6482,181,3.5
+306,Ideas Trouser,Ideas,Trouser,7086,154,5.0
+307,Khaadi Shirt,Khaadi,Shirt,7195,125,4.6
+308,Outfitters T-Shirt,Outfitters,T-Shirt,5341,117,4.6
+309,J. Kurta,J.,Kurta,1923,175,4.7
+310,Ideas Hoodie,Ideas,Hoodie,7495,144,4.8
+311,Gul Ahmed Jeans,Gul Ahmed,Jeans,2097,24,3.5
+312,Gul Ahmed Shirt,Gul Ahmed,Shirt,5440,119,4.2
+313,J. Kurta,J.,Kurta,6705,182,3.7
+314,Khaadi Shirt,Khaadi,Shirt,5767,141,4.4
+315,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,7649,171,4.0
+316,J. Hoodie,J.,Hoodie,3485,146,4.0
+317,Levis Jacket,Levis,Jacket,2545,20,3.8
+318,Breakout Kurta,Breakout,Kurta,3144,72,4.5
+319,J. Hoodie,J.,Hoodie,4274,127,4.5
+320,Bonanza Jeans,Bonanza,Jeans,4801,159,3.9
+321,J. T-Shirt,J.,T-Shirt,7731,98,4.4
+322,J. Trouser,J.,Trouser,6405,58,3.7
+323,Breakout T-Shirt,Breakout,T-Shirt,6963,78,4.6
+324,Bonanza Jacket,Bonanza,Jacket,7648,22,4.8
+325,Ideas Trouser,Ideas,Trouser,8438,113,4.8
+326,Levis Jeans,Levis,Jeans,8320,8,4.5
+327,Ideas Jeans,Ideas,Jeans,6305,191,4.0
+328,Outfitters Shirt,Outfitters,Shirt,2825,78,4.5
+329,Ideas Trouser,Ideas,Trouser,7965,140,4.3
+330,Outfitters Jacket,Outfitters,Jacket,4223,103,3.8
+331,Gul Ahmed Jeans,Gul Ahmed,Jeans,8369,46,3.6
+332,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,2846,58,3.8
+333,Gul Ahmed Shirt,Gul Ahmed,Shirt,4030,172,5.0
+334,Breakout T-Shirt,Breakout,T-Shirt,1521,106,3.8
+335,Gul Ahmed Jacket,Gul Ahmed,Jacket,5230,156,4.7
+336,J. Trouser,J.,Trouser,3498,95,5.0
+337,Ideas Jacket,Ideas,Jacket,3432,163,3.7
+338,Gul Ahmed Hoodie,Gul Ahmed,Hoodie,1701,26,3.8
+339,Levis Kurta,Levis,Kurta,4386,72,4.6
+340,Breakout Jacket,Breakout,Jacket,7685,171,3.8
+341,Levis T-Shirt,Levis,T-Shirt,6117,116,4.1
+342,Outfitters T-Shirt,Outfitters,T-Shirt,1612,98,4.9
+343,Gul Ahmed Trouser,Gul Ahmed,Trouser,6380,52,4.6
+344,Bonanza Kurta,Bonanza,Kurta,5612,196,3.5
+345,Bonanza Shirt,Bonanza,Shirt,3412,129,3.8
+346,Gul Ahmed Trouser,Gul Ahmed,Trouser,6172,13,4.9
+347,Gul Ahmed Hoodie,Gul Ahmed,Hoodie,6478,153,3.6
+348,Breakout Jacket,Breakout,Jacket,5434,60,3.8
+349,Breakout Hoodie,Breakout,Hoodie,7798,38,4.1
+350,Levis Hoodie,Levis,Hoodie,2827,5,4.7
+351,Khaadi Kurta,Khaadi,Kurta,2038,13,4.8
+352,Ideas Jacket,Ideas,Jacket,4452,111,3.8
+353,Bonanza Jacket,Bonanza,Jacket,4767,131,4.8
+354,Breakout Jeans,Breakout,Jeans,4337,20,3.5
+355,Ideas Hoodie,Ideas,Hoodie,4926,154,4.4
+356,Ideas Shirt,Ideas,Shirt,6983,11,4.2
+357,Khaadi Jacket,Khaadi,Jacket,1678,33,3.8
+358,Gul Ahmed Jacket,Gul Ahmed,Jacket,5792,178,3.6
+359,Gul Ahmed Trouser,Gul Ahmed,Trouser,3856,162,4.4
+360,Levis Kurta,Levis,Kurta,4779,98,3.5
+361,Outfitters Jeans,Outfitters,Jeans,8039,136,4.8
+362,Khaadi T-Shirt,Khaadi,T-Shirt,2522,132,3.9
+363,Levis Jeans,Levis,Jeans,8348,114,3.6
+364,Gul Ahmed Jacket,Gul Ahmed,Jacket,5309,78,4.4
+365,Breakout Hoodie,Breakout,Hoodie,5928,87,4.9
+366,Gul Ahmed Shirt,Gul Ahmed,Shirt,6556,160,4.5
+367,Levis Jacket,Levis,Jacket,3875,135,4.4
+368,Breakout T-Shirt,Breakout,T-Shirt,1884,63,4.6
+369,Ideas T-Shirt,Ideas,T-Shirt,4849,84,4.4
+370,Levis Shirt,Levis,Shirt,3041,93,4.4
+371,Outfitters Kurta,Outfitters,Kurta,3932,51,4.5
+372,Gul Ahmed Kurta,Gul Ahmed,Kurta,5390,21,4.9
+373,Khaadi Trouser,Khaadi,Trouser,6103,135,3.5
+374,Breakout Jacket,Breakout,Jacket,7909,95,4.0
+375,Bonanza Jacket,Bonanza,Jacket,6253,184,3.8
+376,Gul Ahmed Trouser,Gul Ahmed,Trouser,7261,106,4.9
+377,Outfitters Kurta,Outfitters,Kurta,4421,122,3.6
+378,Bonanza Jeans,Bonanza,Jeans,7441,136,3.9
+379,Gul Ahmed Trouser,Gul Ahmed,Trouser,5248,130,3.6
+380,J. Trouser,J.,Trouser,5507,51,3.8
+381,Khaadi Shirt,Khaadi,Shirt,2337,107,4.4
+382,Khaadi Kurta,Khaadi,Kurta,6916,16,4.6
+383,Levis Shirt,Levis,Shirt,8242,10,4.4
+384,Outfitters T-Shirt,Outfitters,T-Shirt,2326,79,4.3
+385,Outfitters Shirt,Outfitters,Shirt,4902,89,4.9
+386,Gul Ahmed Jacket,Gul Ahmed,Jacket,4437,198,4.6
+387,Outfitters Kurta,Outfitters,Kurta,6427,141,4.1
+388,Outfitters Hoodie,Outfitters,Hoodie,8133,173,4.1
+389,Outfitters Trouser,Outfitters,Trouser,1804,191,3.7
+390,J. Kurta,J.,Kurta,5698,157,4.8
+391,Outfitters Shirt,Outfitters,Shirt,3197,151,3.8
+392,Breakout Trouser,Breakout,Trouser,2550,23,4.8
+393,Outfitters Shirt,Outfitters,Shirt,4158,49,4.3
+394,Outfitters T-Shirt,Outfitters,T-Shirt,5406,109,4.9
+395,Ideas Jeans,Ideas,Jeans,6637,194,4.4
+396,Khaadi Kurta,Khaadi,Kurta,3623,28,4.3
+397,Khaadi T-Shirt,Khaadi,T-Shirt,2142,74,4.2
+398,Outfitters Trouser,Outfitters,Trouser,4749,80,4.6
+399,Ideas Kurta,Ideas,Kurta,1958,169,3.6
+400,Bonanza Jacket,Bonanza,Jacket,4506,166,3.9
+401,Gul Ahmed Jeans,Gul Ahmed,Jeans,3709,174,3.9
+402,Gul Ahmed Jacket,Gul Ahmed,Jacket,3866,27,3.9
+403,Levis Kurta,Levis,Kurta,2218,142,4.5
+404,Ideas Jacket,Ideas,Jacket,6770,137,4.8
+405,Ideas Trouser,Ideas,Trouser,4976,121,4.1
+406,Gul Ahmed Kurta,Gul Ahmed,Kurta,3421,146,4.9
+407,Ideas Trouser,Ideas,Trouser,5782,197,4.8
+408,Gul Ahmed T-Shirt,Gul Ahmed,T-Shirt,2785,12,3.9
+409,Gul Ahmed Shirt,Gul Ahmed,Shirt,4329,10,4.8
+410,J. Kurta,J.,Kurta,6755,187,3.9
+411,Breakout Shirt,Breakout,Shirt,7590,131,3.7
+412,Levis Hoodie,Levis,Hoodie,3969,179,4.0
+413,Outfitters Jeans,Outfitters,Jeans,1828,162,3.9
+414,Levis T-Shirt,Levis,T-Shirt,3295,131,4.4
+415,Breakout Hoodie,Breakout,Hoodie,4605,149,4.1
+416,Bonanza Jacket,Bonanza,Jacket,4346,190,4.7
+417,Khaadi Trouser,Khaadi,Trouser,5784,15,5.0
+418,Gul Ahmed Jeans,Gul Ahmed,Jeans,5910,105,5.0
+419,Ideas Shirt,Ideas,Shirt,7117,34,4.4
+420,Outfitters Jacket,Outfitters,Jacket,6881,194,4.9
+421,Breakout T-Shirt,Breakout,T-Shirt,1784,18,3.9
+422,Gul Ahmed Jacket,Gul Ahmed,Jacket,4692,159,4.8
+423,Outfitters Jacket,Outfitters,Jacket,1512,166,4.6
+424,J. Kurta,J.,Kurta,5828,138,4.0
+425,Outfitters T-Shirt,Outfitters,T-Shirt,4178,38,4.9
+426,Bonanza Jeans,Bonanza,Jeans,4269,15,4.7
+427,Outfitters T-Shirt,Outfitters,T-Shirt,6126,106,4.3
+428,Outfitters Hoodie,Outfitters,Hoodie,8260,14,4.8
+429,Outfitters Trouser,Outfitters,Trouser,2425,9,4.1
+430,Breakout Kurta,Breakout,Kurta,2099,27,4.8
+431,Gul Ahmed Kurta,Gul Ahmed,Kurta,4082,30,4.0
+432,Outfitters Trouser,Outfitters,Trouser,3736,87,4.1
+433,Khaadi T-Shirt,Khaadi,T-Shirt,4325,86,4.3
+434,J. Shirt,J.,Shirt,2321,100,3.6
+435,Khaadi Jeans,Khaadi,Jeans,4198,140,4.0
+436,J. Trouser,J.,Trouser,2238,152,3.9
+437,Breakout Jacket,Breakout,Jacket,2328,131,3.8
+438,Ideas Jeans,Ideas,Jeans,1909,132,4.6
+439,J. Trouser,J.,Trouser,5259,45,4.2
+440,J. Jacket,J.,Jacket,7127,108,4.6
+441,J. Hoodie,J.,Hoodie,6372,129,4.4
+442,Ideas Hoodie,Ideas,Hoodie,5384,171,4.2
+443,Ideas Jeans,Ideas,Jeans,7102,128,4.5
+444,Outfitters Jacket,Outfitters,Jacket,6919,93,4.5
+445,Bonanza Kurta,Bonanza,Kurta,3403,172,4.7
+446,Levis Shirt,Levis,Shirt,6141,184,4.4
+447,Bonanza Jeans,Bonanza,Jeans,3634,95,4.1
+448,Ideas Shirt,Ideas,Shirt,3551,109,4.4
+449,Khaadi Hoodie,Khaadi,Hoodie,1687,28,4.7
+450,Breakout Trouser,Breakout,Trouser,2750,67,4.1
+451,Outfitters Jeans,Outfitters,Jeans,8091,64,4.9
+452,Levis T-Shirt,Levis,T-Shirt,6420,54,3.9
+453,Bonanza Trouser,Bonanza,Trouser,2050,121,4.5
+454,Gul Ahmed Jacket,Gul Ahmed,Jacket,2551,98,4.3
+455,Gul Ahmed Jeans,Gul Ahmed,Jeans,5948,173,4.7
+456,Khaadi T-Shirt,Khaadi,T-Shirt,7621,168,4.5
+457,Outfitters Trouser,Outfitters,Trouser,6827,91,4.9
+458,Ideas Hoodie,Ideas,Hoodie,2192,142,4.9
+459,J. Jacket,J.,Jacket,8268,36,3.9
+460,Gul Ahmed Jeans,Gul Ahmed,Jeans,5785,96,4.6
+461,Khaadi T-Shirt,Khaadi,T-Shirt,4848,183,3.8
+462,Ideas T-Shirt,Ideas,T-Shirt,1780,28,4.1
+463,Levis Jacket,Levis,Jacket,2317,118,5.0
+464,Outfitters Hoodie,Outfitters,Hoodie,7786,54,4.2
+465,Levis T-Shirt,Levis,T-Shirt,3923,106,4.5
+466,Khaadi Shirt,Khaadi,Shirt,7323,78,4.2
+467,Outfitters T-Shirt,Outfitters,T-Shirt,8047,64,4.8
+468,Outfitters Shirt,Outfitters,Shirt,5625,126,3.7
+469,Breakout Jeans,Breakout,Jeans,1516,157,4.1
+470,Bonanza T-Shirt,Bonanza,T-Shirt,3477,138,3.7
+471,Outfitters Jeans,Outfitters,Jeans,2395,114,4.0
+472,Levis Trouser,Levis,Trouser,1716,68,4.8
+473,Breakout T-Shirt,Breakout,T-Shirt,7406,189,3.6
+474,Gul Ahmed Kurta,Gul Ahmed,Kurta,7709,41,3.9
+475,Khaadi Jacket,Khaadi,Jacket,6634,182,4.6
+476,Ideas Jacket,Ideas,Jacket,4932,156,4.7
+477,Bonanza Shirt,Bonanza,Shirt,3154,17,4.4
+478,Khaadi T-Shirt,Khaadi,T-Shirt,6978,73,4.2
+479,Gul Ahmed Jacket,Gul Ahmed,Jacket,3885,73,4.4
+480,Bonanza Hoodie,Bonanza,Hoodie,5455,152,4.9
+481,Ideas Kurta,Ideas,Kurta,2054,115,4.5
+482,Bonanza Trouser,Bonanza,Trouser,4638,77,3.7
+483,Bonanza Jacket,Bonanza,Jacket,1648,77,3.6
+484,Outfitters Trouser,Outfitters,Trouser,4812,54,4.1
+485,J. Trouser,J.,Trouser,5621,137,3.7
+486,Bonanza Shirt,Bonanza,Shirt,4178,153,4.6
+487,Bonanza Trouser,Bonanza,Trouser,6129,153,3.6
+488,Khaadi Jeans,Khaadi,Jeans,2509,91,4.3
+489,Breakout Shirt,Breakout,Shirt,3255,75,4.0
+490,Levis Jeans,Levis,Jeans,3878,36,4.9
+491,Breakout Jeans,Breakout,Jeans,2994,93,4.8
+492,Bonanza Jeans,Bonanza,Jeans,8425,80,3.7
+493,Outfitters T-Shirt,Outfitters,T-Shirt,7916,91,3.9
+494,Khaadi Shirt,Khaadi,Shirt,3758,156,4.0
+495,Khaadi Hoodie,Khaadi,Hoodie,4366,134,3.7
+496,Levis Kurta,Levis,Kurta,7860,85,4.4
+497,Levis T-Shirt,Levis,T-Shirt,7520,117,4.8
+498,Outfitters Hoodie,Outfitters,Hoodie,4197,167,4.4
+499,Bonanza Hoodie,Bonanza,Hoodie,1613,106,4.0
+500,Khaadi Kurta,Khaadi,Kurta,1767,70,4.8

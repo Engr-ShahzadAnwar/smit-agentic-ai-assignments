@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+google-genai
+openai
+openai-agents
+pandas
+faker
